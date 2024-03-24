@@ -1,0 +1,59 @@
+/* Allgemeine Formatierung */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+/* Bildungs- und Beruflicher Werdegang */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul p {
+    margin: 0;
+    color: #666;
+}
+
+/* Skills und Zertifizierungen */
+ul ul {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+/* Sonstiges */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p:last-child {
+    margin-top: 20px;
+    color: #999;
+}
